@@ -13,7 +13,7 @@ if (toDoTasks !== null) {
     const temp = `
       <div class="meta">
         <input type="checkbox" id="ip-${index}" class="cb-task">
-        <label for="ip-${index}" class="lb-task">${description}</label>
+        <label for="ip-${index}" class="lb-task">${index}-${description}</label>
         <input type="text" class="ip-task hidden" value="${description}">
       </div>
       <div class="icon-task" id=${index}>
